@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Jeeva Nithish - SI Calc</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+
+<div class="calc">
+  <h1>Simple Interest</h1>
+  <p id="err-msg">Invalid input. Either the input is empty or you must have used alphabets or characters. </p>
+
+<input type="number" placeholder="Principal"id="amount">
+<input type="number" placeholder="Rate of Interest" id="rate">
+
+<input type="number" placeholder="Duration" id="time">
+<select id="myDropdown">
+  <option>Year</option>
+  <option>Month</option>
+</select>
+<br><br>
+  <input class="btn" type="button" value="Calculate" onclick="checkMsg()"><br>
+
+  <p>Total Principal : <p id="principal">0</p> </p><br>
+  
+  <p>Total Interest : <p id="result">0</p> </p><br>
+
+  <p>Total Amount : <p id="r2">0</p></p>
+</div>
+
+  <script src="script.js"></script>
+  
+</body>
+
+</html>
